@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.logo {
+    margin-left: 160px;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #2C2E3A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+h1 span {
+    color: #FF8225;
+}
+h1 {
+    color: white;
+}
+nav ul{
+    margin-right: 160px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #FF8225;
+}
+.header {
+    background-color: #2C2E3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 911px;
+}
+.header .content h1{
+    color: #FF8225;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: 24px;
+}
+.header .content p {
+    color: white;
+    font-size: 25px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-bottom: 24px;
+}
+.checkbtn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #FF8225;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.checkbtn:hover {
+    background-color: #994E16;
+}
+.checkbtn:active {
+    background-color: #733A11;
+}
+.sworks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+.sworks h1 {
+    color: #15161A;
+}
+.sworks .wcards {
+    display: flex;
+    margin-top: 24px;
+}
+.sworks .wcards .card1 {
+    width: 473px;
+    height: 473px;
+    background-color: white;
+    padding: 24px 24px;
+    border-radius: 10px;
+    margin-right: 100px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+.sworks .wcards .card1:hover {
+    width: 480px;
+    height: 480px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2)
+}
+.sworks .wcards .card1 img {
+    height: 240px;
+    border-radius: 5px;
+}
+.sworks .wcards .card1 p{
+    color: #585A65;
+    font-weight: 600;
+}
+.sworks .wcards .card2 {
+    width: 473px;
+    height: 473px;
+    align-items: center;
+    background-color: white;
+    padding: 24px 24px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+.sworks .wcards .card2:hover {
+    width: 480px;
+    height: 480px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2)
+}
+.sworks .wcards .card2 img {
+    height: 240px;
+    border-radius: 5px;
+}
+.sworks .wcards .card2 p{
+    color: #585A65;
+    font-weight: 600;
+}
+footer {
+    background-color: #2C2E3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 526px;
+}
+footer .infos {
+    text-align: center;
+}
+footer .position .pos {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+footer .infos h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+footer .infos .ctnme {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF8225;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+footer .infos .ctnme:hover {
+    background-color: #994E16;
+}
+footer .infos .ctnme:active {
+    background-color: #733A11;
+}
+footer .cpwrite p {
+    color: white;
+    padding-top: 120px;
+    font-size: 16px;
+}
